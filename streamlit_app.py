@@ -90,3 +90,12 @@ if st.button("✨ Get Outfit Recommendation"):
 
             except Exception as e:
                 st.error(f"Error: {str(e)}")
+
+# Footer with custom styling
+st.markdown("""
+    <hr style="margin-top: 50px; border-top: 1px solid #bbb;" />
+    <div style="text-align: center; color: gray; font-size: 14px; padding-top: 10px;">
+        🚀 Built by <b>Ashad K</b> · Powered by <b>LangChain</b>, <b>Cohere</b>, and <b>Streamlit</b><br>
+        <a href="https://github.com/Ashad777/AI-Powered-Outfit-Recommendation-System" target="_blank" style="color: #888;">View on GitHub</a>
+    </div>
+""", unsafe_allow_html=True)
